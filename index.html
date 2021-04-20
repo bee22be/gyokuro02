@@ -29,13 +29,6 @@
 	</header>
   <div id="hero" class="hero">
     <div class="hero__blur"></div>
-    <!-- <div id="hero__slide" class="hero__slide">
-      <img src="images/header/hero0.jpg">
-      <img src="images/header/hero1.jpg">
-      <img src="images/header/hero2.jpg">
-      <img src="images/header/hero3.jpg">
-      <img src="images/header/hero4.jpg">
-    </div> -->
     <div class="hero__slide" data-slideshow-span="4">
       <!-- data-slideshow-span="4"で4秒間隔のslideshow -->
       <div style="background-image: url(images/header/hero0.jpg); background-position: 50% 40%;" class="hero__slideItem"></div>
@@ -126,9 +119,9 @@
             <li>株式会社アグル [スピードウィッチバトル]「抜刀少女 ヒナギク」「不屈の剣闘士 ヴィダル」</li>
           </ul>
         </div>
+        
         <div class="work__item" data-showstate="false">
           <h3>2018</h3>
-
           <ul class="work__history">
             <li>上坂すみれ様生誕祭クリエイター27名とのコラボ【<a href="https://vvstore.jp/feature/detail/7613/">上坂すみれ生誕祭2018</a>】グッズイラスト制作</li>
             <li>株式会社べネッセコーポレーション/30年度『中3MyVision 8月号』特集イラスト表紙制作</li>
@@ -283,35 +276,38 @@
           </ul>
         </div>
       </section><!-- /#about__workhistory -->
-
     </article><!-- /#about -->
 
     <article id="goods">
       <section>
         <h2>Goods</h2>
-        <p class="goods__description">神威なつきのイラスト集やグッズなどの販売です。<small>グッズの詳細・購入</small>をクリックして詳細確認や購入が可能です。</p>
+        <p class="goods__description">神威なつきのイラスト集やグッズなどの販売です。<small>購入ボタン</small>をクリックして詳細確認や購入が可能です。</p>
         <ul class="goods__items">
-          
-        <li class="goods__item">
+          <li class="goods__item">
             <div class="goods__thumbnail"><img src="images/goods/huku_1.jpg" title="「神威なつき」デザインの洋服コラボ" alt="Favorite様とコラボ決定！被布風ワンピース×二色袴風黒レースロングスカートのデザインをさせていただきました。"  width="555" height="620"></div>
             <div class="goods__content">
               <p class="goods__name">被布風ワンピース×</p><p>二色袴風黒レースロングスカート</p>
               <p class="goods__price">生産決定！ご予約受付中</p>
             </div>
             <footer class="goods__footer">
-              <a href="https://favorite-one.co.jp/ffcokamuired" target="new" class="goods__detail">Amazon</a>
-              <a href="https://favorite-one.co.jp/ffcokamuired" target="new" class="goods__detail">BOOTH</a>
-              <a href="https://favorite-one.co.jp/ffcokamuired" target="new" class="goods__detail">メロンブックス</a>
+              <ul class="goods__shopList">
+                <li class="goods__shopItem"><a href="https://favorite-one.co.jp/ffcokamuired" target="new" class="goods__detail">Favorite</a></li>
+              </ul>
             </footer>
           </li>
-        <li class="goods__item">
+          <li class="goods__item">
             <div class="goods__thumbnail"><img src="images/goods/retoro.jpg" title="「神威なつき」著書本" alt="「神威なつき」著書本『レトロモダンな和装の女の子 キャラクターデザインブック』和装×現代ファッションキャラ80種以上。 デザインの解説やメイキング、イラスト集としても楽しめる本になってます。"  width="438" height="620"></div>
             <div class="goods__content">
               <p class="goods__name">レトロモダンな和装の女の子</p><p>キャラクターデザインブック</p>
               <p class="goods__price">Amazon/書店にて発売中</p>
             </div>
             <footer class="goods__footer">
-              <a href="https://www.amazon.co.jp/dp/4768314201/ref=cm_sw_r_tw_awdo_btf_c_x_fYNMFbB7VX6YD" target="new" class="goods__detail">グッズの詳細・購入</a>
+              <ul class="goods__shopList">
+                <li class="goods__shopItem"><a href="https://www.amazon.co.jp/dp/4768314201/ref=cm_sw_r_tw_awdo_btf_c_x_fYNMFbB7VX6YD" target="new" class="goods__detail">Amazon</a></li>
+                <li class="goods__shopItem"><a href="https://www.genkosha.co.jp/gmook/?p=24136" target="new" class="goods__detail">玄光社</a></li>
+                <li class="goods__shopItem"><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=753595" target="new" class="goods__detail">メロンブックス</a></li>
+                <li class="goods__shopItem"><a href="https://ecs.toranoana.jp/tora/ec/item/200012157414/" target="new" class="goods__detail">とらのあな</a></li>
+              </ul>
             </footer>
           </li>
           <li class="goods__item">
@@ -321,7 +317,10 @@
               <p class="goods__price">売り切れ</p>
             </div>
             <footer class="goods__footer">
-              <a href="https://n-kamui.booth.pm/items/536434" target="new" class="goods__detail">グッズの詳細・購入</a>
+              <ul class="goods__shopList">
+                <li class="goods__shopItem"><a href="https://n-kamui.booth.pm/items/536434" target="new" class="goods__detail">BOOTH</a></li>
+                <li class="goods__shopItem"><a href="https://www.melonbooks.co.jp/detail/detail.php? product_id=216986" target="new" class="goods__detail">メロンブックス</a></li>
+              </ul>
             </footer>
           </li>
           <li class="goods__item">
@@ -331,7 +330,10 @@
               <p class="goods__price">売り切れ</p>
             </div>
             <footer class="goods__footer">
-              <a href="https://n-kamui.booth.pm/items/838109" target="new" class="goods__detail">グッズの詳細・購入</a>
+              <ul class="goods__shopList">
+                <li class="goods__shopItem"><a href="https://n-kamui.booth.pm/items/838109" target="new" class="goods__detail">BOOTH</a></li>
+                <li class="goods__shopItem"><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=364428" target="new" class="goods__detail">メロンブックス</a></li>
+              </ul>
             </footer>
           </li>
           <li class="goods__item">
@@ -341,7 +343,10 @@
               <p class="goods__price">売り切れ</p>
             </div>
             <footer class="goods__footer">
-              <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=384366" target="new" class="goods__detail">グッズの詳細・購入</a>
+              <ul class="goods__shopList">
+                <li class="goods__shopItem"><a href="https://n-kamui.booth.pm/items/1111003" target="new" class="goods__detail">BOOTH</a></li>
+                <li class="goods__shopItem"><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=384366" target="new" class="goods__detail">メロンブックス</a></li>
+              </ul>
             </footer>
           </li>
         </ul>
@@ -357,6 +362,7 @@
                 data-new-end="2016/03/11" 20160311まで表示
                 data-new-type="1" 見た目変更 無し or 1
               -->
+            <li><img src="images/gallery/original/o_38.jpg" title="オリジナル" alt="2021.2.「鬼姫」" width="676" height="1000" data-new-end="2021/03/31" loading="lazy"></li>
             <li><img src="images/gallery/original/o_37.jpg" title="オリジナル" alt="2021.1.「狐の嫁入り」 初出：百人百色展3 (モデルはZOCの藍染カレンさん)「星が降る満月の夜に、惹かれたあの人に会うため現世に降りたお稲荷様と使いである双子の狐の少女」" width="1000" height="711" data-new-end="2021/02/28" loading="lazy"></li>
             <li><img src="images/gallery/original/o_36.jpg" title="オリジナル" alt="2021.1.「令和ちゃんと花ちゃんの初詣」 " width="750" height="1000" data-new-end="2021/02/28" loading="lazy"></li>
             <li><img src="images/gallery/original/o_35.jpg" title="オリジナル" alt="2021.1.「2021年 丑年」 " width="811" height="1200" data-new-end="2021/02/28" loading="lazy"></li>
@@ -400,6 +406,8 @@
         <div class="gallery__item">
           <h2>Work</h2>
           <ul data-max-length="15" data-max-length-smart="7">
+            <li><img src="images/gallery/work/w_104.jpg" title="サクラ革命" alt="2021.03.サクラ革命 「桜花爛漫！ 天神花見十番勝負」霊子護符「みうめのパンダ」" width="1000" height="563" data-new-end="2021/04/30" loading="lazy"></li>
+            <li><img src="images/gallery/work/w_103.jpg" title="第五人格コラボ記念イラスト" alt="2021.03.『IdentityV 第五人格×約束のネバーランド』コラボ記念イラスト" width="863" height="1200" data-new-end="2021/04/30" loading="lazy"></li>
             <li><img src="images/gallery/work/w_102.jpg" title="蒼天のスカイガレオン" alt="2020.08.神話召喚第6弾 マヤアステカ 創紀探究「イシュキック」" width="816" height="1086" data-new-end="2020/08/31" loading="lazy"></li>
             <li><img src="images/gallery/work/w_101.jpg" title="コンテスト受賞" alt="2020.06.[絵守未來/100万円企画]絵光寺ルリ 優秀賞受賞" width="681" height="1000" data-new-end="2020/08/31" loading="lazy"></li>
             <li><img src="images/gallery/work/w_100.jpg" title="ラグナロクマスターズ" alt="プロモーションカード「冒険にでよう」" width="786" height="1000" loading="lazy"></li>
@@ -534,6 +542,7 @@
         <div class="gallery__item">
           <h2>Design</h2>
           <ul data-max-length="15" data-max-length-smart="7">
+            <li><img src="images/gallery/design/d_14.jpg" title="『Live2D用イラスト制作』" alt="2021.Youtube実況者べべさん(＠bee22be)のVtuber和装＋猫デザイン" width="1153" height="800" data-new-end="2021/03/31" loading="lazy"></li>
             <li><img src="images/gallery/design/d_13.jpg" title="Favorite様とのコラボ企画" alt="2020.「被布風ワンピース×二色袴風黒レースロングスカート」洋服デザイン" width="2000" height="986" data-new-end="2021/01/31" loading="lazy"></li>
             <li><img src="images/gallery/design/d_12.jpg" title="『レトロモダンな和装の女の子 キャラクターデザインブック』" alt="2020.本に収録されているオリジナルの女の子たち。" width="1500" height="964" data-new-end="2021/01/31" loading="lazy"></li>
             <li><img src="images/gallery/design/d_11.jpg" title="『PHANTASY STAR ONLINE 2』" alt="2020.ファシネイションモンスターズ「アンベリールデリカ」" width="850" height="590" data-new-end="2020/12/31" loading="lazy"></li>
@@ -574,16 +583,20 @@
         <div class="gallery__group">
           <h3>その他</h3>
           <ul data-max-length="10" data-max-length-smart="10">
-            <li><img src="images/gallery/books/b_09.jpg" title="オリジナル" alt="2021.1.「眠る少女」  「自然なしぐさイラストポーズ集/カラーイラスト」" width="745" height="1000" data-new-end="2021/02/28"></li>
-            <li><img src="images/gallery/books/b_08.jpg" title="オリジナル" alt="2021.1.「先輩と後輩」  「自然なしぐさイラストポーズ集/扉絵」" width="745" height="1000" data-new-end="2021/02/28"></li>
-            <li><img src="images/gallery/books/b_07.jpg" title="オリジナル" alt="2019.「ミエナイモノ」 初出：2019年 RAY展" width="679" height="1000"></li>
-            <li><img src="images/gallery/books/b_06.jpg" title="オリジナル" alt="2019.12.「muñeca」 「キャラが映える構図イラストポーズ集」巻頭カラー" width="700" height="939"></li>
-            <li><img src="images/gallery/books/b_05.jpg" title="オリジナル" alt="2019.12「双子少女」「キャラが映える構図イラストポーズ集」扉絵 " width="800" height="1082"></li>
-            <li><img src="images/gallery/books/b_04.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』源義経" width="638" height="900"></li>
-            <li><img src="images/gallery/books/b_03.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』歌川広重" width="638" height="900"></li>
-            <li><img src="images/gallery/books/b_02.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』淀殿漫画" width="1200" height="858"></li>
-            <li><img src="images/gallery/books/b_01.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』淀殿" width="638" height="900"></li>
-            <li><img src="images/gallery/books/b_00.jpg" alt="2018.株式会社べネッセコーポレーション/30年度『中3MyVision 8月号』特集イラス ト表紙制作" width="709" height="1000"></li>
+            <li><img src="images/gallery/books/b_13.jpg" title="オリジナル" alt="2021.3.「銀剣のステラナイツ 星屑のリヴラガーデン」  「墜星のナヴィガトリア」" width="713" height="1000" data-new-end="2021/04/30" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_12.jpg" title="オリジナル" alt="2021.3.「銀剣のステラナイツ 星屑のリヴラガーデン」  「紫色のキキョウ」" width="705" height="1000" data-new-end="2021/04/30" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_11.jpg" title="オリジナル" alt="2021.3.「銀剣のステラナイツ 星屑のリヴラガーデン」  「星の原盤」" width="1000" height="713" data-new-end="2021/04/30" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_10.jpg" title="オリジナル" alt="2021.3.「銀剣のステラナイツ 星屑のリヴラガーデン」  「連星の騎士」" width="1000" height="713" data-new-end="2021/04/30" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_09.jpg" title="オリジナル" alt="2021.1.「眠る少女」  「自然なしぐさイラストポーズ集/カラーイラスト」" width="745" height="1000" data-new-end="2021/02/28" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_08.jpg" title="オリジナル" alt="2021.1.「先輩と後輩」  「自然なしぐさイラストポーズ集/扉絵」" width="745" height="1000" data-new-end="2021/02/28" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_07.jpg" title="オリジナル" alt="2019.「ミエナイモノ」 初出：2019年 RAY展" width="679" height="1000" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_06.jpg" title="オリジナル" alt="2019.12.「muñeca」 「キャラが映える構図イラストポーズ集」巻頭カラー" width="700" height="939" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_05.jpg" title="オリジナル" alt="2019.12「双子少女」「キャラが映える構図イラストポーズ集」扉絵 " width="800" height="1082" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_04.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』源義経" width="638" height="900" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_03.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』歌川広重" width="638" height="900" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_02.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』淀殿漫画" width="1200" height="858" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_01.jpg" alt="2019.『ミラクルマスター　煌めきビジュアル 日本の歴史人物事典DX』淀殿" width="638" height="900" loading="lazy"></li>
+            <li><img src="images/gallery/books/b_00.jpg" alt="2018.株式会社べネッセコーポレーション/30年度『中3MyVision 8月号』特集イラス ト表紙制作" width="709" height="1000" loading="lazy"></li>
           </ul>
        </div><!-- /.gallery__group -->
       </section><!-- /.gallery__item -->
